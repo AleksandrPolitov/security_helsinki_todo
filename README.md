@@ -3,11 +3,10 @@
 ## Installation instructions
 
 1. Install Django: `pip install django`
-2. Go to project directory: `cd security_helsinki`
-3. Run migrations: `python manage.py migrate`
-4. Start server: `python manage.py runserver`
-5. Open browser to `http://127.0.0.1:8000/`
-6. (Optional) To create user do: python manage.py createsuperuser
+2. Run migrations: `python manage.py migrate`
+3. Start server: `python manage.py runserver`
+4. Open browser to `http://127.0.0.1:8000/`
+5. (Optional) To create user do: python manage.py createsuperuser
 ---
 
 ## FLAW 1: Cross-Site Scripting (XSS) - A03:2021
