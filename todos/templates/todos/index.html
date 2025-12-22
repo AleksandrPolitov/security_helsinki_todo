@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo app</title>
+    <style>
+        .todo {
+            padding: 10px;
+            margin: 5px 0;
+            background: #f0f0f0;
+        }
+        .done {
+            text-decoration: line-through;
+        }
+        form {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>My todo list</h1>
+    
+    <form method="post" action="/add/">
+        <!-- FLAW (2): CSRF token removed - view uses @csrf_exempt -->
+        <!-- FIX: Add {% csrf_token %} here and remove @csrf_exempt from views.py -->
+        <!-- {% csrf_token %} -->
+        <input type="text" name="text" placeholder="Add new todo">
+        <button type="submit">Add</button>
+    </form>
+    
+    <h1>Todos:</h1>
+    {% for todo in todos %}
+        <div class="todo">
+            <!-- FLAW (1): Using |safe filter allows XSS attacks -->
+            <!-- FIX: Remove |safe filter to enable auto-escaping: {{ todo.text }} -->
+            <span class="{% if todo.done %}done{% endif %}">{{ todo.text|safe }}</span>
+            <a href="/toggle/{{ todo.id }}/">Toggle</a>
+            <a href="/delete/{{ todo.id }}/">Delete</a>
+        </div>
+        {% empty %}
+        <p>No todos</p>
+    {% endfor %}
+</body>
+</html>
+
