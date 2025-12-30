@@ -48,20 +48,16 @@ The app saves todos publicly: there is no per-user access.
 
 ---
 
-## FLAW 4: Insecure Direct Object Reference (IDOR) - A01:2021
+**FLAW 4: Security Logging and Monitoring Failures - A09:2021**
 
-**Where:** `todos/views.py` (`delete` and `toggle`)
+**Where:** `todos/views.py` (create/delete/toggle) and `security_helsinki/settings.py`
 
 **Description:**
-`delete` and `toggle` accessed todos by ID without checking ownership.
+The application does not have logging for user actions (create, delete, toggle). This makes it difficult to detect suspicious activity.
 
 **How to fix:**
-Require authentication and fetch objects of the current user:
-```
-if not request.user.is_authenticated:
-    return redirect('login')
-todo = Todo.objects.get(id=todo_id, user=request.user)
-```
+1. Use logger.info calls for user actions in `todos/views.py` using Python's `logging`:
+2. Add `LOGGING` configuration in `security_helsinki/settings.py`
 
 ---
 

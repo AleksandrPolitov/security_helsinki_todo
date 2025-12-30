@@ -1,0 +1,62 @@
+[2025-12-30 01:28:50,934] INFO todos.views todo_created user=None todo_id=27
+[2025-12-30 01:28:50,938] INFO todos.views todos_listed user=None count=6
+[2025-12-30 01:29:45,138] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/security_helsinki/settings.py changed, reloading.
+[2025-12-30 02:10:44,484] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:10:50,823] INFO todos.views todo_created user=None todo_id=28
+[2025-12-30 02:10:50,828] INFO todos.views todos_listed user=None count=7
+[2025-12-30 02:22:18,837] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:22:19,038] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:22:22,312] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:23:05,634] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:23:05,864] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:24:08,228] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:24:08,456] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:24:28,624] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/security_helsinki/settings.py changed, reloading.
+[2025-12-30 02:24:28,810] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:24:38,243] INFO todos.views todos_listed user=Anonymous count=7
+[2025-12-30 02:24:41,061] INFO todos.views todo_created user=Anonymous todo_id=29
+[2025-12-30 02:24:41,067] INFO todos.views todos_listed user=Anonymous count=8
+[2025-12-30 02:25:09,112] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:25:09,326] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:25:20,438] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:25:20,641] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:25:27,724] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:25:27,932] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:25:30,772] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:25:38,976] INFO todos.views todos_listed user=none count=8
+[2025-12-30 02:25:52,116] INFO todos.views todo_created user=none todo_id=30
+[2025-12-30 02:25:52,125] INFO todos.views todos_listed user=none count=9
+[2025-12-30 02:25:59,430] INFO todos.views todo_toggled user=none todo_id=30 done=True
+[2025-12-30 02:25:59,434] INFO todos.views todos_listed user=none count=9
+[2025-12-30 02:25:59,977] INFO todos.views todo_deleted user=none todo_id=29
+[2025-12-30 02:25:59,982] INFO todos.views todos_listed user=none count=8
+[2025-12-30 02:26:57,328] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:26:57,559] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:27:05,656] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:27:05,848] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:27:10,928] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:27:11,146] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:27:18,242] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:27:18,510] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:27:19,853] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:28:28,330] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:28:28,546] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:28:51,737] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:28:51,980] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:29:05,104] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:29:05,348] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:31:58,359] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:31:58,557] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:32:15,768] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:33:40,279] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:33:40,498] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:33:42,915] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:37:07,169] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:37:07,405] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:38:49,021] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:38:49,232] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:39:07,386] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:39:07,599] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:39:10,665] INFO django.utils.autoreload /home/politov/Documents/Projects/security_helsinki/todos/views.py changed, reloading.
+[2025-12-30 02:39:10,873] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-12-30 02:39:12,222] INFO django.utils.autoreload Watching for file changes with StatReloader

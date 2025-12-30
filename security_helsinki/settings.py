@@ -120,3 +120,22 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 LOGIN_REDIRECT_URL = '/'
+
+# FIX (4) need to have logs folder
+# https://docs.djangoproject.com/en/6.0/howto/logging/
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'simple': {'format': '[%(asctime)s] %(levelname)s %(name)s %(message)s'},
+    },
+    'handlers': {
+        'file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': str(BASE_DIR / 'logs' / 'app.log'),
+            'formatter': 'simple',
+            'level': 'INFO',
+        },
+    },
+    'root': {'handlers': ['file'], 'level': 'INFO'},
+}
